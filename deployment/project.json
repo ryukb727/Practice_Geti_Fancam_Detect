@@ -1,0 +1,101 @@
+{
+   "id": "68c8c9f7ad618c77385c97be",
+   "name": "Fancam_detecting",
+   "creation_time": "2025-09-16T02:22:48.016000+00:00",
+   "creator_id": "d4118f35-4121-423f-a425-b5e7cb7d90d9",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "68c8c9f7ad618c77385c97bf",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "68c8c9f8ad618c77385c97c1",
+            "title": "Detection",
+            "task_type": "detection",
+            "labels": [
+               {
+                  "id": "68c8c9f8ad618c77385c97c3",
+                  "name": "karina",
+                  "is_anomalous": false,
+                  "color": "#5b69ffff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68c8c9f8ad618c77385c97c4",
+                  "name": "Giselle",
+                  "is_anomalous": false,
+                  "color": "#25a18eff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68c8c9f8ad618c77385c97c5",
+                  "name": "Winter",
+                  "is_anomalous": false,
+                  "color": "#e96115ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68c8c9f8ad618c77385c97c6",
+                  "name": "Ning Ning",
+                  "is_anomalous": false,
+                  "color": "#ff7d00ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68c8c9f8ad618c77385c97ca",
+                  "name": "No object",
+                  "is_anomalous": false,
+                  "color": "#000000ff",
+                  "hotkey": "",
+                  "is_empty": true,
+                  "group": "No object",
+                  "parent_id": null
+               }
+            ],
+            "label_schema_id": "68c8c9f8ad618c77385c97cc"
+         }
+      ],
+      "connections": [
+         {
+            "from": "68c8c9f7ad618c77385c97bf",
+            "to": "68c8c9f8ad618c77385c97c1"
+         }
+      ]
+   },
+   "thumbnail": "/api/v1/organizations/55c78a65-1c48-4bd0-a153-dff3c4d4b7b5/workspaces/21e2b7de-3368-412e-af9f-69ddd34c3b88/projects/68c8c9f7ad618c77385c97be/thumbnail",
+   "performance": {
+      "score": 0.7272727272727273,
+      "task_performances": [
+         {
+            "task_id": "68c8c9f8ad618c77385c97c1",
+            "score": {
+               "value": 0.7272727272727273,
+               "metric_type": "F-Measure"
+            }
+         }
+      ]
+   },
+   "storage_info": {},
+   "datasets": [
+      {
+         "id": "68c8c9f8ad618c77385c97c7",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2025-09-16T02:22:48.014000+00:00"
+      }
+   ]
+}
