@@ -41,7 +41,7 @@
 
 ---
 
-## 🧠 실습 1. Classification — *Guess Who Am I*
+## 🔎 실습 1. Classification — *Guess Who Am I*
 
 특정 인물 분류(Classification)를 목표로 진행한 실습으로,  
 **데이터셋 크기 증가**와 **모델 아키텍처 변경**이 Accuracy에 미치는 영향을 비교했습니다.
@@ -130,12 +130,12 @@
 
 #### ✔ 정량 평가 결과
 
-| 조건 | Detection Score |
+| 조건 | Accuracy |
 |-----|----------------|
 | 360p 영상 | 16% |
 | 1080p 영상 | **81%** |
 
-- 수치상 Detection 성능 약 **400% 이상 향상**
+- 수치상 Accuracy 약 **400% 이상 향상**
 
 ---
 
@@ -186,8 +186,8 @@
 
 | 항목 | 결과 |
 |----|----|
-| Detection Score | **78%** |
-| 성능 검사 점수 | **95점** |
+| Accuracy | **78%** |
+| Detection Score | **95점** |
 
 - 수치상 Accuracy는 Version 3 대비 **3%p 감소**
 - 그러나 실제 검증에서는
@@ -199,11 +199,11 @@
 ### ✔ 비교 분석
 
 - Version 1~3:
-  - 정량 Score는 상승했으나 실제 성능 검증 실패
+  - Accuracy Score는 상승했으나 실제 성능 검증 실패
 - Version 4:
-  - Score는 소폭 하락했지만 **일관된 탐지 성능 확보**
+  - Accuracy Score는 소폭 하락했지만 **일관된 탐지 성능 확보**
 - Detection에서는
-  **Score보다 데이터 다양성과 일반화 성능이 더 중요함을 확인**
+  **Accuracy Score보다 데이터 다양성과 일반화 성능이 더 중요함을 확인**
 
 ---
 
