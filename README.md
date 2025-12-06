@@ -87,7 +87,7 @@
 - 데이터 수 증가에 따라 두 모델 모두 Accuracy 향상 경향 확인
 - **EfficientNet-V2-S는 데이터 증가에 따라 성능이 안정적으로 상승**
 - EfficientNet-B0는 Version 3에서 Accuracy 하락 →  
-  **데이터 구성 편향 및 일반화 한계 가능성** 확인
+  **데이터 구성의 편향으로 인한 일반화 한계 가능성** 확인
   
 
 ### ✅ Classification 결론
@@ -128,12 +128,12 @@
 
 #### ✔ 정량 평가 결과
 
-| 조건 | Accuracy |
+| 조건 | Detection Score |
 |-----|----------------|
 | 360p 영상 | 16% |
 | 1080p 영상 | **81%** |
 
-- 수치상 Accuracy 약 **400% 이상 향상**
+- 수치상 Detection Score 약 **400% 이상 향상**
 
 <br>
 
@@ -183,10 +183,10 @@
 
 | 항목 | 결과 |
 |----|----|
-| Accuracy | **78%** |
-| Detection Score | **95점** |
+| Detection Score | **78%** |
+| Inference Score | **95%** |
 
-- 수치상 Accuracy는 Version 3 대비 **3%p 감소**
+- 수치상 Detection Score는 Version 3 대비 **3%p 감소**
 - 그러나 실제 검증에서는
   - 안정적인 탐지 성능 확보
   - 일반화 성능 대폭 개선
@@ -196,18 +196,18 @@
 ### ✔ 비교 분석
 
 - Version 1~3:
-  - Accuracy Score는 상승했으나 실제 성능 검증 실패
+  - Detection Score는 상승했으나 실제 성능 검증 실패
 - Version 4:
-  - Accuracy Score는 소폭 하락했지만 **일관된 탐지 성능 확보**
+  - Detection Score는 소폭 하락했지만 **일관된 탐지 성능 확보**
 - Detection에서는
-  **Accuracy Score보다 데이터 다양성과 일반화 성능이 더 중요함을 확인**
+  **Detection Score보다 데이터 다양성과 일반화 성능이 더 중요함을 확인**
 
 
 ### ✅ Detection 결론
 
 > Object Detection 성능은  
 > **해상도·데이터 다양성·Bounding Box 설계가 함께 작용**하며,  
-> **정량 지표보다 실제 성능 검증이 더 중요함**을 실무 관점에서 체감했습니다.
+> **정량 지표보다 실제 성능 검증이 더 중요함**을 체감했습니다.
 
 ---
 
@@ -405,10 +405,10 @@
 
 | 項目 | 結果 |
 |----|----|
-| Accuracy | 78% |
-| Detection Score | **95 点** |
+| Detection Score | 78% |
+| Inference Score | **95%** |
 
-- 定量 Accuracy は Version 3 比で 3%p 低下
+- 定量 Detection Score は Version 3 比で 3%p 低下
 - しかし実運用環境では
   - 安定した検出性能を確保
   - 一般化性能が大幅に改善
@@ -417,16 +417,16 @@
 
 ### ✔ 比較分析
 - Version 1〜3:
-  - Accuracyスコアは上昇したが、実際の性能検証に失敗
+  - Detection Scoreは上昇したが、実際の性能検証に失敗
 - Version 4:
-  - Accuracyスコアは小幅に下落したが、一貫した検出性能を確保
-- 検出においては、Accuracyスコアよりもデータ多様性と一般化性能がより重要であることを確認
+  - Detection Scoreは小幅に下落したが、一貫した検出性能を確保
+- 検出においては、Detection Scoreよりもデータ多様性と一般化性能がより重要であることを確認
 
 ### ✅ 検出（Detection）の結論
 
 オブジェクト検出では、  
 **解像度・データ多様性・バウンディングボックス設計**が相互に影響し合い、  
-定量指標以上に **実際の性能検証が重要**であることを実践的に学びました。
+定量指標だけでなく、**実際の性能検証が重要**であることを学びました。
 
 ---
 
@@ -442,7 +442,7 @@
 ---
 
 <div align="center">
-<a href="#korean">⬆️ 한국어버전으로 돌아가기 (Go back to Korean Version) ⬆️</a>
+<a href="#korean">⬆️ 한국어 버전으로 돌아가기 (Go back to Korean Version) ⬆️</a>
 </div>
 
 </div>
@@ -677,7 +677,7 @@ The code deployment files are structured as follows:
 ---
 
 <div align="center">
-<a href="#korean">⬆️ 한국어버전으로 돌아가기 (Go back to Korean Version) ⬆️</a>
+<a href="#korean">⬆️ 한국어 버전으로 돌아가기 (Go back to Korean Version) ⬆️</a>
 </div>
 
 </div>
