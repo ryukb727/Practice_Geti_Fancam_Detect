@@ -198,9 +198,9 @@
 - Version 1~3:
   - Detection Score는 상승했으나 실제 성능 검증 실패
 - Version 4:
-  - Detection Score는 소폭 하락했지만 **일관된 탐지 성능 확보**
+  - Detection Score는 소폭 하락했으나, **일관된 탐지 성능 확보**
 - Detection에서는
-  **Detection Score보다 데이터 다양성과 일반화 성능이 더 중요함을 확인**
+  **수치 지표(Detection Score)보다 데이터 다양성과 일반화 성능이 더 중요함을 확인**
 
 
 ### ✅ Detection 결론
