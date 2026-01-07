@@ -10,7 +10,7 @@
 ### 🇰🇷 Korean Version
 # 🔬 Intel Geti를 활용한 AI Classification & Detection 실습
 
-본 문서는 **Intel Edge AI SW Academy 과정** 중 진행한  
+본 문서는 **[Intel] 엣지 AI SW 아카데미 과정** 중 진행한  
 **Intel Geti 플랫폼 기반 AI 실습(Classification / Object Detection)** 내용을 정리한 것입니다.
 
 본 실습을 통해 모델 학습 전 과정과 함께,  
